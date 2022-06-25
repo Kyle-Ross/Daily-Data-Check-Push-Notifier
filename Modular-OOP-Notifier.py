@@ -291,8 +291,8 @@ There were errors running the script...
 
 # Create the SheetNotice object
 ExampleObject = SheetNotice(
-    notice_api_key="api key for the user goes",
-    admin_api_key="api key for the admin goes",
+    notice_api_key="api key for the user",
+    admin_api_key="api key for the admin",
     gsheet_json_path=r"The file path for the gsheet json file",
     gsheet_workbook_name="Workbook Name",
     gsheet_worksheet_name="Sheet1",
