@@ -73,7 +73,7 @@ try:
     needed_dates_date = [datetime.date(x.year, x.month, x.day) for x in needed_dates_datetime]
 
     # Set list of exceptions
-    kyle_exceptions = [datetime.date(2022, 5, 12)]
+    kyle_exceptions = [datetime.date(2022, 5, 12), datetime.date(2022, 9, 20)]
     olivia_exceptions = [datetime.date(2022, 5, 10)]
 
     # Function to get list of missing dates for a person, re-formats to strings
